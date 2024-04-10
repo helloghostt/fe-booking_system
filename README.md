@@ -1,46 +1,46 @@
 
 
 ## 폴더구조
-├── src/
-│   ├── components/
-│   │   ├── accounts/ 계정 관련 컴포넌트 (로그인 폼, 회원가입 폼, 프로필)
-│   │   │   ├── LoginForm.js
-│   │   │   ├── SignupForm.js
-│   │   │   └── Profile.js
-│   │   ├── bookings/ 예약 관련 컴포넌트 (코트 목록, 예약 폼, 예약 내역)
-│   │   │   ├── CourtList.js
-│   │   │   ├── BookingForm.js
-│   │   │   └── BookingHistory.js
-│   │   ├── notices/ 공지사항 관련 컴포넌트 (공지사항 목록, 상세보기, 작성 폼)
-│   │   │   ├── NoticeList.js
-│   │   │   ├── NoticeDetail.js
-│   │   │   └── NoticeForm.js
-│   │   ├── common/ 공통 컴포넌트 
-│   │   │   ├── Header.js
-│   │   │   ├── Footer.js
-│   │   │   └── Navigation.js
-│   │   └── intro/ 소개 페이지 컴포넌트
-│   │       └── Intro.js
-│   ├── pages/ 각 페이지를 나타내는 컴포넌트 폴더
-│   │   ├── Home.js
-│   │   ├── Login.js
-│   │   ├── Signup.js
-│   │   ├── Booking.js
-│   │   ├── Notice.js
-│   │   └── Intro.js
-│   ├── api/
-│   │   ├── auth.js  인증 관련 API 호출 함수
-│   │   ├── bookings.js  예약 관련 API 호출 함수
-│   │   └── notices.js  공지사항 관련 API 호출 함수
-│   ├── styles/
-│   │   ├── global.css
-│   │   └── theme.js
-│   ├── App.js
-│   └── index.js
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-└── package.json
+    ├── src/
+    │   ├── components/
+    │   │   ├── accounts/ 계정 관련 컴포넌트 (로그인 폼, 회원가입 폼, 프로필)
+    │   │   │   ├── LoginForm.js
+    │   │   │   ├── SignupForm.js
+    │   │   │   └── Profile.js
+    │   │   ├── bookings/ 예약 관련 컴포넌트 (코트 목록, 예약 폼, 예약 내역)
+    │   │   │   ├── CourtList.js
+    │   │   │   ├── BookingForm.js
+    │   │   │   └── BookingHistory.js
+    │   │   ├── notices/ 공지사항 관련 컴포넌트 (공지사항 목록, 상세보기, 작성 폼)
+    │   │   │   ├── NoticeList.js
+    │   │   │   ├── NoticeDetail.js
+    │   │   │   └── NoticeForm.js
+    │   │   ├── common/ 공통 컴포넌트 
+    │   │   │   ├── Header.js
+    │   │   │   ├── Footer.js
+    │   │   │   └── Navigation.js
+    │   │   └── intro/ 소개 페이지 컴포넌트
+    │   │       └── Intro.js
+    │   ├── pages/ 각 페이지를 나타내는 컴포넌트 폴더
+    │   │   ├── Home.js
+    │   │   ├── Login.js
+    │   │   ├── Signup.js
+    │   │   ├── Booking.js
+    │   │   ├── Notice.js
+    │   │   └── Intro.js
+    │   ├── api/
+    │   │   ├── auth.js  인증 관련 API 호출 함수
+    │   │   ├── bookings.js  예약 관련 API 호출 함수
+    │   │   └── notices.js  공지사항 관련 API 호출 함수
+    │   ├── styles/
+    │   │   ├── global.css
+    │   │   └── theme.js
+    │   ├── App.js
+    │   └── index.js
+    ├── public/
+    │   ├── index.html
+    │   └── favicon.ico
+    └── package.json
 
 ## 지도 API 연동:
 Google Maps 지도 서비스 제공자의 API를 사용할 수 있습니다.
