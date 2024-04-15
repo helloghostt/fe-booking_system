@@ -1,6 +1,7 @@
 
 
 ## 폴더구조
+    Frontend/
     ├── src/
     │   ├── components/
     │   │   ├── accounts/ 계정 관련 컴포넌트 (로그인 폼, 회원가입 폼, 프로필)
@@ -19,6 +20,10 @@
     │   │   │   ├── Header.js
     │   │   │   ├── Footer.js
     │   │   │   └── Navigation.js
+    │   │   ├── blog/
+    │   │   │   ├── BlogList.js
+    │   │   │   ├── BlogForm.js
+    │   │   │   └── BlogDetail.js
     │   │   └── intro/ 소개 페이지 컴포넌트
     │   │       └── Intro.js
     │   ├── pages/ 각 페이지를 나타내는 컴포넌트 폴더
@@ -26,11 +31,13 @@
     │   │   ├── Login.js
     │   │   ├── Signup.js
     │   │   ├── Booking.js
+    │   │   ├── Blog.js
     │   │   ├── Notice.js
     │   │   └── Intro.js
     │   ├── api/
     │   │   ├── auth.js  인증 관련 API 호출 함수
     │   │   ├── bookings.js  예약 관련 API 호출 함수
+    │   │   ├── blog.js
     │   │   └── notices.js  공지사항 관련 API 호출 함수
     │   ├── styles/
     │   │   ├── global.css
@@ -40,7 +47,8 @@
     ├── public/
     │   ├── index.html
     │   └── favicon.ico
-    └── package.json
+    └── package.json 
+
 
 ## 지도 API 연동:
 Google Maps 지도 서비스 제공자의 API를 사용할 수 있습니다.
