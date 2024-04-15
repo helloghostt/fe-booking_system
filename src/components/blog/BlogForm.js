@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createNotice } from '../../api/notices';
+import { createPost } from '../../api/blog';
 
-const NoticeForm = () => {
+const BlogForm = () => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const navigate = useNavigate();
@@ -10,10 +10,10 @@ const NoticeForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await createNotice(title, content);
-      navigate('/notices');
+      await createPost(title, content);
+      navigate('/blog');
     } catch (error) {
-      console.error('Failed to create notice:', error);
+      console.error('Failed to create post:', error);
     }
   };
 
@@ -30,9 +30,9 @@ const NoticeForm = () => {
         value={content}
         onChange={(e) => setContent(e.target.value)}
       />
-      <button type="submit">Create Notice</button>
+      <button type="submit">Create Post</button>
     </form>
   );
 };
 
-export default NoticeForm;
+export default BlogForm;
